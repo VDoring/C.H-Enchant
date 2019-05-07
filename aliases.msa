@@ -1,0 +1,12 @@
+﻿/ench [$1] =>>>
+
+	if($1 == 'help' || $1 == '') {
+	msg('§c"infi" §2입력시 §c무한(infinity) §2인첸트됨')
+	}
+	
+	if($1 == 'infi') {
+		enchant_inv(player(), null, infinity, 1)
+	msg('§6무한 적용됨.')
+	}
+	
+<<<
